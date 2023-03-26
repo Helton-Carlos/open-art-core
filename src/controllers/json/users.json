@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Helton Brito",
+    "numero": "(75) 99898-5757",
+    "valor": "500.00",
+    "img": "src/assets/card/person.png",
+    "arte": [
+      {
+        "title": "Silent Wave",
+        "persona": "Creator",
+        "imageMain": "src/assets/card/art01.png",
+        "quantidade": "4"
+      }
+    ]
+  }
+]
