@@ -8,9 +8,45 @@
     "arte": [
       {
         "title": "Silent Wave",
-        "persona": "Creator",
+        "persona": "Helton",
         "imageMain": "src/assets/card/art01.png",
         "quantidade": "4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Talita Souza",
+    "numero": "(75) 91528-5757",
+    "valor": "250.00",
+    "img": "src/assets/card/person.png",
+    "arte": [
+      {
+        "title": "Silent Color",
+        "persona": "Talita",
+        "imageMain": "src/assets/card/art02.png",
+        "quantidade": "1"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tayná Carla Silva",
+    "numero": "(75) 98886-7007",
+    "valor": "250.00",
+    "img": "src/assets/card/person.png",
+    "arte": [
+      {
+        "title": "Man Wave",
+        "persona": "Tayná",
+        "imageMain": "src/assets/card/art04.png",
+        "quantidade": "1"
+      },
+      {
+        "title": "Pawel Czerwinski",
+        "persona": "Tayná",
+        "imageMain": "src/assets/card/art03.png",
+        "quantidade": "2"
       }
     ]
   }
