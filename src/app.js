@@ -2,18 +2,36 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const routes = require("./routes/routes.js");
 
-const app = express();
-
 const cors = require("cors");
+require("dotenv").config();
 
-require('dotenv').config()
+class App {
+  constructor() {
+    this.app = express();
+    this.app.use(bodyParser.json());
+    this.middlewares();
+    this.routes();
+  }
 
-app.use(bodyParser.json());
+  middlewares() {
+    this.app.use(express.json());
 
-app.use(cors());
+    this.app.use((req, res, next) => {
+      res.header("Access-Control-Allow-Origin", "*");
+      res.header("Access-Control-Allow-Methods", "Get, POST, PUT, DELETE");
+      res.header(
+        "Access-Control-Allow-Headers",
+        "Access, Content-type, Authorization, Acept, Origin, X-Requested-With"
+      );
 
-app.use("/api", routes);
+      this.app.use(cors());
+      next();
+    });
+  }
+  
+  routes() {
+    this.app.use("/api", routes);
+  }
+}
 
-app.listen(process.env.PORT, () => {
-  console.log(`Conexão porta ${process.env.PORT}`);
-});
+module.exports = new App().app;
