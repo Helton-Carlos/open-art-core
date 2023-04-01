@@ -10,7 +10,8 @@
         "title": "Silent Wave",
         "persona": "Helton",
         "imageMain": "src/assets/card/art01.png",
-        "quantidade": "4"
+        "quantidade": 4,
+        "imagePersona": "src/assets/card/person.png"
       }
     ]
   },
@@ -25,7 +26,8 @@
         "title": "Silent Color",
         "persona": "Talita",
         "imageMain": "src/assets/card/art02.png",
-        "quantidade": "1"
+        "quantidade": 1,
+        "imagePersona": "src/assets/card/person.png"
       }
     ]
   },
@@ -40,13 +42,15 @@
         "title": "Man Wave",
         "persona": "Tayná",
         "imageMain": "src/assets/card/art04.png",
-        "quantidade": "1"
+        "quantidade": 1,
+        "imagePersona": "src/assets/card/person.png"
       },
       {
         "title": "Pawel Czerwinski",
         "persona": "Tayná",
         "imageMain": "src/assets/card/art03.png",
-        "quantidade": "2"
+        "quantidade": 3,
+        "imagePersona": "src/assets/card/person.png"
       }
     ]
   }
